@@ -67,6 +67,7 @@ class TestHashTable(unittest.TestCase):
 
         return_value = ht.retrieve("key-0")
         self.assertTrue(return_value == "new-val-0")
+
         return_value = ht.retrieve("key-1")
         self.assertTrue(return_value == "new-val-1")
         return_value = ht.retrieve("key-2")
